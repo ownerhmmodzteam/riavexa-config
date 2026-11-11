@@ -1,0 +1,56 @@
+
+{
+  "app": {
+    "name": "RaiVexa Test",
+    "package_name": "app.raivexa",
+    "version_name": "1.0",
+    "version_code": 1
+  },
+
+  "remote_config": {
+    "enabled": true,
+    "config_version": 1,
+    "check_interval": 3600
+  },
+
+  "update": {
+    "enabled": true,
+    "required": false,
+    "version_name": "1.0",
+    "version_code": 1,
+    "download_url": "",
+    "sha256": "",
+    "release_notes": "Initial release of RaiVexa Test."
+  },
+
+  "notification": {
+    "enabled": true,
+    "update_notification": {
+      "enabled": true,
+      "title": "Update RaiVexa tersedia!",
+      "message": "Versi terbaru RaiVexa sudah tersedia. Perbarui sekarang untuk mendapatkan pengalaman terbaik.",
+      "button_text": "Update Sekarang",
+      "dismiss_text": "Nanti"
+    }
+  },
+
+  "maintenance": {
+    "enabled": false,
+    "title": "Sedang Maintenance",
+    "message": "RaiVexa sedang dalam pemeliharaan. Silakan coba kembali nanti."
+  },
+
+  "application": {
+    "enabled": true,
+    "show_update_dialog": true,
+    "allow_dismiss_update": true,
+    "force_update": false
+  },
+
+  "announcement": {
+    "enabled": false,
+    "title": "",
+    "message": "",
+    "button_text": "Mengerti"
+  }
+}
